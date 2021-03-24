@@ -1,0 +1,440 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>Society Admin Access</title>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.scss">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<style>
+body {
+	background: white
+}
+</style>
+</head>
+
+<body>
+	<header class="cd-main-header js-cd-main-header">
+		<div class="cd-logo-wrapper">
+			<a href="#0" class="cd-logo"> <img
+				src="../assets/img/cd-logo.svg" alt="Logo"></a>
+		</div>
+
+		<button class="reset cd-nav-trigger js-cd-nav-trigger"
+			aria-label="Toggle menu">
+			<span></span>
+		</button>
+		<ul class="cd-nav__list js-cd-nav__list">
+			<li class="cd-nav__item"><a href="#0">My App Details</a></li>
+			<li class="cd-nav__item"><a href="#0">Refer & Earn</a></li>
+			<li class="cd-nav__item"><a href="#0">Support</a></li>
+			<li class="cd-nav__item"><a href="#0">About</a></li>
+			<li class="cd-nav__item"><a href="#0">Feedback</li>
+			<li class="cd-nav__item"><a href="#0">FAQ</a></li>
+
+			<li
+				class="cd-nav__item cd-nav__item--has-children cd-nav__item--account js-cd-item--has-children">
+				<a href="#0"> <!-- <img src="../../assets/img/cd-avatar.svg" alt="avatar" >-->
+					<span>Account</span>
+			</a>
+
+				<ul class="cd-nav__sub-list">
+					<li class="cd-nav__sub-item"><a href="#0">My Account</a></li>
+					<li class="cd-nav__sub-item"><a href="#0">Edit Account</a></li>
+					<li class="cd-nav__sub-item"><a href="#0">Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+	<!-- .cd-main-header -->
+
+	<nav class="sidebar">
+		<br> <br>
+		<br>
+		<ul>
+			<li class="active"><a href="#initialContent">Home</a></li>
+			<li><a href="#">Panic</a></li>
+			<li><a href="#" class="feat-btn">Activity <span
+					class="fas fa-caret-down first"></span></a>
+				<ul class="feat-show">
+					<li><a href="#" class="feat-btn1"></i>Notification</a><span
+							class="fas fa-caret-down third"></span>
+						<ul class="feat-show1">
+							<li><a href="#"></i>Visitor Entry</a></li>
+							<li><a href="#"></i>Advance Request</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="feat-btn2"></i>Delivery</a><span
+							class="fas fa-caret-down third"></span>
+						  <ul class="feat-show2">
+							<li><a href="#"></i>Visitor Entry</a></li>
+							<li><a href="#"></i>Advance Request</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="feat-btn3"></i>Guest </a><span
+							class="fas fa-caret-down third"></span>
+						 <ul class="feat-show3">
+							<li><a href="#"></i>Visitor Entry</a></li>
+							<li><a href="#"></i>Advance Request</a></li>
+						</ul>
+					
+					</li>
+					<li><a href="#" class="feat-btn4"></i>Helper</a><span
+							class="fas fa-caret-down third"></span>
+						 <ul class="feat-show4">
+							<li><a href="#"></i>Visitor Entry</a></li>
+							<li><a href="#"></i>Advance Request</a></li>
+						</ul>
+					</li>
+					<li><a href="#" class="feat-btn5"></i>Taxi</a><span
+							class="fas fa-caret-down third"></span>
+						 <ul class="feat-show5">
+							<li><a href="#"></i>Visitor Entry</a></li>
+							<li><a href="#"></i>Advance Request</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#" class="serv-show">Visitor Access <span
+					class="fas fa-caret-down first"></span></a>
+				<ul class="feat-show">
+					<li><a href="#" class="serv-btn3"></i>Neighbourhood Shop</a><span
+							class="fas fa-caret-down third"></span>
+						<ul class="feat-show1">
+							<li><a href="#"></i>Visitor Entry</a></li>
+							<li><a href="#"></i>Advance Request</a></li>
+						</ul>
+					</li>
+				 </ul>
+			</li>
+				<li><a href="#" class="feat-btn">House Holds <span
+					class="fas fa-caret-down first"></span></a>
+				<ul class="feat-show">
+					<li><a href="#" class="feat-btn1"></i>Daily</a><span
+							class="fas fa-caret-down third"></span>
+						<ul class="feat-show1">
+							<li><a href="#"></i>Guest</a></li>
+							<li><a href="#"></i>Delivery</a></li>
+							<li><a href="#"></i>Helper</a></li>
+						</ul>
+					</li>
+					<li><a href="#"></i>Family Member</a></li>
+					<li><a href="#"></i>Vehicle</a></li>
+					<li><a href="#"></i>Tenats</a></li>
+				 </ul>
+			</li>
+			<li><a href="#" class="serv-btn4">Community <span
+							class="fas fa-caret-down sixth"></span>
+				</a>
+				<ul class="feat-show1">
+					<li><a href="#"></i>Local Service</a></li>
+					<li><a href="#"></i>Emergency Numbers</a></li>
+					<li><a href="#"></i>Forum</a></li>
+					<li><a href="#"></i>Documents</a></li>
+					<li><a href="#"></i>Society Help</a></li>
+					<li><a href="#"></i>Notice Board</a></li>
+					<li><a href="#"></i>Residents</a></li>
+					<li><a href="#"></i>Communication</a></li>
+					<li><a href="#"></i>Integrate Neighbourhood</a></li>
+				</ul>
+		    </li>
+			<li><a href="#"></i>Instant Notice</a></li>
+
+			<li><a href="#" class="serv-btn4">Instant Action <span
+							class="fas fa-caret-down sixth"></span>
+				</a>
+				<ul class="feat-show1">
+					<li><a href="#"></i>Appointment</a></li>
+					<li><a href="#"></i>Request Guest Code</a></li>
+					<li><a href="#"></i>Kid exit</a></li>
+					<li><a href="#"></i>Emergency</a></li>
+					<li><a href="#"></i>Message to Security</a></li>
+				</ul>
+		    </li>
+			<li><a href="#" class="serv-btn4">Approval <span
+							class="fas fa-caret-down sixth"></span>
+				</a>
+				<ul class="feat-show1">
+					<li><a href="#"></i>Flat</a></li>
+					<li><a href="#"></i>Security</a></li>
+				</ul>
+		    </li>
+			<li><a href="#" class="serv-btn4">Neighbourhood <span
+							class="fas fa-caret-down sixth"></span>
+				</a>
+				<ul class="feat-show1">
+					<li><a href="#"></i>Employee</a></li>
+					<li><a href="#"></i>Vehicle</a></li>
+				</ul>
+		    </li>
+			<li><a href="#"></i>Security</a></li>
+			<li><a href="#"></i>Management</a></li>
+			<li><a href="#"></i>Amenity</a></li>
+			<li><a href="#"></i>Flats</a></li>
+			<li><a href="#"></i>Finance</a></li>
+			<li><a href="#"></i>Repository</a></li>
+			<li><a href="#"></i>Emails</a></li>
+			<li><a href="#"></i>Reports</a></li>
+			<li><a href="#"></i>Switch</a></li>
+			<li><a href="#"></i>Neighbourhood Enrolment</a></li>
+			<li><a href="#"></i>Society Enrolment</a></li>
+			<li><a href="#"></i>User Registration</a></li>
+			<li><a href="#"></i>Licensing</a></li>
+			<li><a href="#" class="serv-btn4">Societies <span
+							class="fas fa-caret-down sixth"></span>
+				</a>
+				<ul class="feat-show1">
+					<li><a href="#"></i>List</a></li>
+					<li><a href="#"></i>Registered Society</a></li>
+					<li><a href="#"></i>Society Pass</a></li>
+				</ul>
+		    </li>
+			<li><a href="#"></i>Staff</a></li>
+			<li><a href="#"></i>Communty Registration</a></li>
+
+				<!--
+					<li><a href="#"></i>Activity</a></li>
+					<li><a href="#" class="feat-btn1">Instant Action <span
+							class="fas fa-caret-down third"></span></a>
+						<ul class="feat-show1">
+							<li><a href="#"></i>Society Activation</a></li>
+							<li><a href="#"></i>Appointment </a></li>
+							<li><a href="#"></i>Request Guest Code</a></li>
+						</ul></li>
+					<li><a href="#" class="feat-btn2">Community <span
+							class="fas fa-caret-down forth"></span></a>
+						<ul class="feat-show2">
+							<li><a href="#"></i>Local Services</a></li>
+							<li><a href="#"></i>Emergency Numbers</a></li>
+							<li><a href="#"></i>Forum</a></li>
+							<li><a href="#"></i>Documents</a></li>
+						</ul></li>
+				</ul></li>
+			<li><a href="#" class="serv-btn">Society <span
+					class="fas fa-caret-down second"></span>
+			</a>
+				<ul class="serv-show">
+					<li><a href="#">Activity</a></li>
+					<li><a href="#">Visitor Access</a></li>
+					<li><a href="#" class="serv-btn3">Instant Action <span
+							class="fas fa-caret-down fifth"></span>
+					</a>
+						<ul class="serv-show3">
+							<li><a href="#"></i>Society Activation</a></li>
+							<li><a href="#"></i>Appointment </a></li>
+							<li><a href="#"></i>Request Guest Code</a></li>
+							<li><a href="#"></i>Kid Exit</a></li>
+							<li><a href="#"></i>Emergency </a></li>
+							<li><a href="#"></i>Message to Security</a></li>
+						</ul></li>
+					<li><a href="#">HouseHolds</a></li>
+					<li><a href="#" class="serv-btn4">Community <span
+							class="fas fa-caret-down sixth"></span>
+					</a>
+						<ul class="serv-show4">
+							<li><a href="#"></i>Local Services</a></li>
+							<li><a href="#"></i>Emergency Numbers </a></li>
+							<li><a href="#"></i>Forum</a></li>
+							<li><a href="#"></i>Documents</a></li>
+							<li><a href="#"></i>Society Help Desk </a></li>
+							<li><a href="#"></i>Notice Board</a></li>
+							<li><a href="#"></i>Residents</a></li>
+							<li><a href="#"></i>Communications</a></li>
+						</ul></li>
+					<li><a id="enrollmentDetails">Enrollment Details</a></li>
+					<li><a href="#">Panic</a></li>
+
+				</ul></li>
+			<li><a href="#" class="sa-btn">Security Access <span
+					class="fas fa-caret-down seventh"></span>
+			</a>
+				<ul class="sa-show">
+					<li><a href="#">Activity</a></li>
+					<li><a href="#">Visitor Access</a></li>
+					<li><a href="#" class="sa-btn1">Instant Action <span
+							class="fas fa-caret-down eightth"></span>
+					</a>
+						<ul class="sa-show1">
+							<li><a href="#"></i>Vehicle tracking</a></li>
+							<li><a href="#"></i>Minor Exit </a></li>
+							<li><a href="#"></i>Flat Consignment</a></li>
+							<li><a href="#"></i>Emergency Alarm</a></li>
+							<li><a href="#"></i>Message to Society Admin </a></li>
+							<li><a href="#"></i>Society Consignment</a></li>
+						</ul></li>
+
+					<li><a href="#">House Hold</a></li>
+					<li><a href="#">Community</a></li>
+				</ul></li>
+			<li><a href="#" class="serv-btn1">Admin <span
+					class="fas fa-caret-down second1"></span>
+			</a>
+				<ul class="serv-show1">
+					<li><a href="#">Activity</a></li>
+					<li><a href="#">Visitor Access</a></li>
+					<li><a href="#" class="serv-btn31">Instant Action <span
+							class="fas fa-caret-down fifth1"></span>
+					</a>
+						<ul class="serv-show31">
+							<li><a href="#"></i>Society Activation</a></li>
+							<li><a href="#"></i>Appointment </a></li>
+							<li><a href="#"></i>Request Guest Code</a></li>
+							<li><a href="#"></i>Kid Exit</a></li>
+							<li><a href="#"></i>Emergency </a></li>
+							<li><a href="#"></i>Message to Security</a></li>
+						</ul></li>
+					<li><a href="#">HouseHolds</a></li>
+					<li><a href="#" class="serv-btn41">Community <span
+							class="fas fa-caret-down sixth1"></span>
+					</a>
+						<ul class="serv-show41">
+							<li><a href="#"></i>Local Services</a></li>
+							<li><a href="#"></i>Emergency Numbers </a></li>
+							<li><a href="#"></i>Forum</a></li>
+							<li><a href="#"></i>Documents</a></li>
+							<li><a href="#"></i>Society Help Desk </a></li>
+							<li><a href="#"></i>Notice Board</a></li>
+							<li><a href="#"></i>Residents</a></li>
+							<li><a href="#"></i>Communications</a></li>
+						</ul></li>
+					<li><a href="#">Panic</a></li>
+					<li><a href="#">Management</a></li>
+					<li><a href="#">Amenity</a></li>
+					<li><a href="#">Flats</a></li>
+					<li><a href="#">Finance</a></li>
+					<li><a href="#">Security</a></li>
+					<li><a href="#">Repository</a></li>
+					<li><a href="#">Reports</a></li>
+					<li><a href="#">Email</a></li>
+					<li><a href="#">Instant Notice</a></li>
+					<li><a href="#">Approval</a></li>
+
+				</ul></li>
+		</ul>-->
+	</nav>
+	<script>
+              $('.feat-btn').click(function(){
+                $('nav ul .feat-show').toggleClass("show");
+                 $('nav ul .first').toggleClass("rotate");
+            });
+             $('.feat-btn1').click(function(){
+                $('nav ul ul .feat-show1').toggleClass("show2");
+                 $('nav ul ul .third').toggleClass("rotate");
+            });
+            $('.feat-btn2').click(function(){
+                $('nav ul ul .feat-show2').toggleClass("show3");
+                 $('nav ul ul .third').toggleClass("rotate");
+            });
+
+             $('.serv-btn').click(function(){
+                $('nav ul .serv-show').toggleClass("show1");
+                 $('nav ul .second').toggleClass("rotate");
+            });
+
+             $('.serv-btn3').click(function(){
+                $('nav ul .serv-show3').toggleClass("show4");
+                 $('nav ul .fifth').toggleClass("rotate");
+            });
+             $('.serv-btn4').click(function(){
+                $('nav ul .serv-show4').toggleClass("show5");
+                 $('nav ul .sixth').toggleClass("rotate");
+            });
+             $('.sa-btn').click(function(){
+                $('nav ul .sa-show').toggleClass("show6");
+                 $('nav ul .seventh').toggleClass("rotate");
+            });
+            $('.sa-btn1').click(function(){
+                $('nav ul ul .sa-show1').toggleClass("show7");
+                 $('nav ul .eightth').toggleClass("rotate");
+            });
+			$('.serv-btn1').click(function(){
+                $('nav ul .serv-show1').toggleClass("show11");
+                 $('nav ul .second1').toggleClass("rotate");
+            });
+             $('.serv-btn31').click(function(){
+                $('nav ul .serv-show31').toggleClass("show41");
+                 $('nav ul .fifth1').toggleClass("rotate");
+            });
+             $('.serv-btn41').click(function(){
+                $('nav ul .serv-show41').toggleClass("show51");
+                 $('nav ul .sixth1').toggleClass("rotate");
+            });
+             $('nav ul li').click(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+            });
+        </script>
+
+
+	<center>
+		<div id="initialContent" class="cd-content-wrapper">
+			<br>
+
+			<div class="color-box">
+				<label for="lname"><center>
+						<h3>Security Notification</h3>
+					</center></label> <br> Security asking for approval
+			</div>
+			<br> <br>
+
+
+
+			<div class="color-box">
+				<label for="lname"><center>
+						<h3>Society Access Approval Request</h3>
+					</center></label> <br> Society access approval
+			</div>
+			<br> <br>
+
+
+			<div class="color-box">
+				<label for="lname"><center>
+						<h3>General Notice</h3>
+					</center></label> <br> Management approval for event
+			</div>
+			<br>
+
+
+		</div>
+
+		<div id="content"></div>
+
+	</center>
+</body>
+<script type="text/javascript">
+ /* function divload(article)
+  {
+	alert("onload call:"+article);
+	document.getElementById("content").innerHTML = "../test/SocietyEnrolment/SocietyEnrolmentDetails.htm";
+  }*/
+
+  $(document).ready( function() {
+
+	
+    $("#enrollmentDetails").click( function(event) {
+		$("#initialContent").hide();
+		event.preventDefault();
+        $("#content").load("/societySecure/enrollment");
+
+	});
+	});
+
+		/*	var xhr = new XMLHttpRequest();
+		xhr.open("GET", "../SocietyEnrolment/SocietyEnrollmentDetails.htm", true);
+		xhr.onreadystatechange = function() {
+		 if (xhr.readyState == 4) {
+		// WARNING! Might be injecting a malicious script!
+		document.getElementById("content").innerHTML = xhr.responseText;
+		
+	  }
+	}
+	xhr.send();
+		});*/
+	
+  </script>
+</html>
